@@ -1,0 +1,136 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  padding-bottom: 15px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-style: none;
+  border-top: 5px dotted ;
+  width: 2%;
+  color: #79a3b1;
+  margin: 150px auto 150px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #222831;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.body-image-left {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.body-image-right {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.tag {
+  font-family: 'Josefin Slab', serif;
+  font-size: 40px;
+  color: #66BFBF;
+}
+
+.top-container {
+  background-color: #d0e8f2;
+  padding-top: 200px;
+  position: relative
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #79a3b1;
+  padding: 50px 0 50px 0;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.profile-picture {
+  width: 15%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.intro {
+  margin: auto;
+  width: 30%;
+}
+
+.contact-me {
+  width: 40%;
+  margin: auto;
+}
+
+.myButton {
+	background-color:#79a3b1;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#83b6c7;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
